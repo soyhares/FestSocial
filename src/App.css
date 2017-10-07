@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #E4CA38;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: 50px;
+
+}
+
+.App-avatar {
+  border-radius:75px;
+  margin-top: 30px;
+  width: 48px;
+  height: 48px;
+
+}
+
+.App-event{
+  margin-top: 10px;
+  text-align: left;
+  background-color:#f0f0f0; 
+  width: 100%;
+
+}
+
+.App-post{
+  border-color: #E4E2E2;
+  border-style: solid;
+  border-width: 0.5px;
+}
+.App-post button{
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: left; /* Safari 7.0+ */
+  display: flex;
+  align-items: left;
+}
+.App-post textarea{
+  width: 100%;
+  height: 50px;
+  border:none; 
+}
+
+.App-post input{
+  
+}
+
+.App-event-header {
+  padding: 10px;
+  padding-top: -5px;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.App-event-header img {
+  border-radius:75px;
+  width: 48px;
+  height: 48px;
+  border-color: #C5B423;
+  border-style: solid;
+  border-width: 1.5px;
+  float: left;
+}
+
+.App-event-header span {
+  font-size: 16px;
+  font-color:#65675E;
+  font-weight: 5px;
+  margin-left: 5px; 
+  font-weight: bold;
+  padding:10px; 
+  float: left;
+}
+
+.App-event-img{
+ 
+
+}
+
+.App-event-img image{
+
+
+}
+
+.App-event-img span{
+  font-size: 12px;
+  font-color:#65675E;
+  text-align: right;
+  font-weight: 5px;
+  margin-left:15px; 
+  padding-left: 5px;
+}
+.App-event-button{
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: left; /* Safari 7.0+ */
+  display: flex;
+  align-items: left;
+  border-color: #E4E2E2;
+  border-style: solid;
+  border-width: 0.5px;
+  background-color:#f0f0f0; 
+  padding: 5px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+label.filebutton {
+    width:20px;
+    height:20px;
+    overflow:hidden;
+    position:relative;
+    background-image:url(../public/attach.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:center;
+    margin-left: 10px;
+}
+
+label span input {
+    z-index: 999;
+    line-height: 0;
+    font-size: 40px;
+    position: absolute;
+    top: -10px;
+    right: -700px;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    -ms-filter: "alpha(opacity=0)";
+    cursor: pointer;
+    cursor: hand;
+    margin: 0;
+    padding:0;
+}
+
+.App-login{
+  margin:0;
+  color:#8a8c6a;
+  background-image:url(../public/pic04.jpg);
+  background-repeat:no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+  font:700 16px/18px 'Open Sans',sans-serif;
+  position: absolute;
+}
+
+.App-login img{
+  margin-top:-15px; 
+  background-repeat:no-repeat;
+  min-width: 180px;
+  min-height: 180px;
+}
+
+.App-login a{
+  color:white;
+}
